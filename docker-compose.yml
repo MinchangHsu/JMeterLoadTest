@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+  jmmaster:
+    image: i_caster_master
+    build: 
+      dockerfile: jmmaster_.Dockerfile
+    container_name: jmeter-master
+    volumes:  
+      - ./jmx/:/opt/
+    networks:
+      - jmeter_net
+  jmslave:
+    image: i_caster_slave
+    build: 
+      dockerfile: jmslave_.Dockerfile
+    container_name: jmeter-slave01
+    networks:
+      - jmeter_net
+  jmslave2:
+    image: i_caster_slave
+    build: 
+      dockerfile: jmslave_.Dockerfile
+    container_name: jmeter-slave02
+    networks:
+      - jmeter_net
+
+networks:
+  jmeter_net:
+    name: jmeternet
+    driver: bridge
