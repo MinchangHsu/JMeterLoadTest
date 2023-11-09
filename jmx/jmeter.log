@@ -1,0 +1,100 @@
+2023-11-09 03:09:24,763 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-09 03:09:24,777 INFO o.a.j.JMeter: Loading user properties from: /jmeter/apache-jmeter-5.6/bin/user.properties
+2023-11-09 03:09:24,778 INFO o.a.j.JMeter: Loading system properties from: /jmeter/apache-jmeter-5.6/bin/system.properties
+2023-11-09 03:09:24,782 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-11-09 03:09:24,782 INFO o.a.j.JMeter: Version 5.6
+2023-11-09 03:09:24,782 INFO o.a.j.JMeter: java.version=11.0.11
+2023-11-09 03:09:24,782 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-11-09 03:09:24,783 INFO o.a.j.JMeter: os.name=Linux
+2023-11-09 03:09:24,783 INFO o.a.j.JMeter: os.arch=amd64
+2023-11-09 03:09:24,783 INFO o.a.j.JMeter: os.version=5.10.16.3-microsoft-standard-WSL2
+2023-11-09 03:09:24,783 INFO o.a.j.JMeter: file.encoding=ANSI_X3.4-1968
+2023-11-09 03:09:24,784 INFO o.a.j.JMeter: java.awt.headless=true
+2023-11-09 03:09:24,784 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-11-09 03:09:24,784 INFO o.a.j.JMeter: Available Processors =20
+2023-11-09 03:09:24,789 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-11-09 03:09:24,803 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-11-09 03:09:24,803 INFO o.a.j.JMeter: JMeterHome=/jmeter/apache-jmeter-5.6
+2023-11-09 03:09:24,804 INFO o.a.j.JMeter: user.dir  =/opt
+2023-11-09 03:09:24,804 INFO o.a.j.JMeter: PWD       =/opt
+2023-11-09 03:09:24,805 INFO o.a.j.JMeter: IP: 172.19.0.2 Name: a8ad45f5bdd7 FullName: a8ad45f5bdd7
+2023-11-09 03:09:24,830 INFO o.a.j.s.FileServer: Default base='/opt'
+2023-11-09 03:09:24,831 INFO o.a.j.s.FileServer: Set new base='/opt'
+2023-11-09 03:09:24,927 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-11-09 03:09:24,939 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-11-09 03:09:24,942 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-11-09 03:09:24,944 INFO o.a.j.s.SaveService: Loading file: SocketIOPressurTest.jmx
+2023-11-09 03:09:25,025 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-11-09 03:09:25,041 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.19.0.4
+2023-11-09 03:09:25,043 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,127 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 172.19.0.3
+2023-11-09 03:09:25,128 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,160 INFO o.a.j.e.DistributedRunner: Starting distributed test with remote engines: [172.19.0.4, 172.19.0.3] @ 2023 Nov 9 03:09:25 UTC (1699499365156)
+2023-11-09 03:09:25,160 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2023-11-09 03:09:25,165 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-11-09 03:09:25,177 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-11-09 03:09:25,329 INFO o.a.j.r.ClassFinder: Will scan jar /jmeter/apache-jmeter-5.6/lib/ext/jmeter-websocket-samplers-1.2.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-09 03:09:25,344 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,345 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,346 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-09 03:09:25,350 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,350 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,351 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,351 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,353 INFO o.a.j.r.ClassFinder: Will scan jar /jmeter/apache-jmeter-5.6/lib/ext/jmeter-websocket-samplers-1.2.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.threads.RemoteThreadsLifeCycleListener], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-09 03:09:25,354 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,354 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,355 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,356 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,356 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,356 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,356 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,357 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,357 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,357 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,357 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,357 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,358 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,358 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,497 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.19.0.4 basedir='.'
+2023-11-09 03:09:25,497 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2023-11-09 03:09:25,505 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.19.0.4
+2023-11-09 03:09:25,506 INFO o.a.j.e.ClientJMeterEngine: running clientengine run method
+2023-11-09 03:09:25,506 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,506 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,507 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,507 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,507 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,508 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,509 INFO o.a.j.r.ClassFinder: Will scan jar /jmeter/apache-jmeter-5.6/lib/ext/jmeter-websocket-samplers-1.2.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.threads.RemoteThreadsLifeCycleListener], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-09 03:09:25,510 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,511 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,511 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,511 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,512 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,512 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,512 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,512 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,513 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,513 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,513 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,513 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2023-11-09 03:09:25,514 INFO o.a.j.s.BatchSampleSender: Using batching (client settings) for this run. Thresholds: num=100, time=60000
+2023-11-09 03:09:25,514 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run
+2023-11-09 03:09:25,635 INFO o.a.j.e.ClientJMeterEngine: sent test to 172.19.0.3 basedir='.'
+2023-11-09 03:09:25,635 INFO o.a.j.e.ClientJMeterEngine: Sending properties {}
+2023-11-09 03:09:25,644 INFO o.a.j.e.ClientJMeterEngine: sent run command to 172.19.0.3
+2023-11-09 03:09:25,644 INFO o.a.j.e.DistributedRunner: Remote engines have been started:[172.19.0.4, 172.19.0.3]
+2023-11-09 03:09:25,852 INFO o.a.j.JMeter: Started remote host:  172.19.0.4 (1699499365852)
+2023-11-09 03:09:26,043 INFO o.a.j.JMeter: Started remote host:  172.19.0.3 (1699499366043)
+2023-11-09 03:09:27,127 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-11-09 03:09:27,128 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-11-09 03:09:27,129 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-11-09 03:09:27,129 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-11-09 03:09:32,477 INFO o.a.j.r.Summariser: summary +    403 in 00:00:07 =   60.9/s Avg:    17 Min:     0 Max:   147 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2023-11-09 03:09:33,202 INFO o.a.j.JMeter: Finished remote host: 172.19.0.3 (1699499373202)
+2023-11-09 03:09:33,346 INFO o.a.j.r.Summariser: summary +    597 in 00:00:01 =  681.5/s Avg:  1004 Min:     0 Max:  3125 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2023-11-09 03:09:33,347 INFO o.a.j.r.Summariser: summary =   1000 in 00:00:07 =  133.4/s Avg:   607 Min:     0 Max:  3125 Err:     0 (0.00%)
+2023-11-09 03:09:33,348 INFO o.a.j.JMeter: Finished remote host: 172.19.0.4 (1699499373348)
+2023-11-09 03:09:33,348 INFO o.a.j.JMeter: All remote engines have ended test, starting RemoteTestStopper thread
+2023-11-09 03:09:38,353 INFO o.a.j.JMeter: Interrupting RMI Reaper

@@ -34,12 +34,12 @@
           </elementProp>
           <elementProp name="threadCount" elementType="Argument">
             <stringProp name="Argument.name">threadCount</stringProp>
-            <stringProp name="Argument.value">1000</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="threadGroup" elementType="Argument">
             <stringProp name="Argument.name">threadGroup</stringProp>
-            <stringProp name="Argument.value">1000</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="threadGroupTimeout" elementType="Argument">
@@ -174,7 +174,7 @@ log.info(&quot;${__threadNum()}--${__samplerName()}--respData=&quot; + responseD
             <stringProp name="path"></stringProp>
             <stringProp name="connectTimeout">20000</stringProp>
             <boolProp name="binaryPayload">false</boolProp>
-            <stringProp name="requestData">42[&quot;message&quot;, {&quot;text&quot;: &quot;Jmeter_Msg_${__time(,)}&quot;}]</stringProp>
+            <stringProp name="requestData">42[&quot;message&quot;, {&quot;message&quot;: &quot;Jmeter_Msg_${__time(,)}&quot;,&quot;userName&quot;: &quot;JmeterUserName_${__RandomString(10,abcdefghijklmnopqrstuvwxyz,)}&quot;}]</stringProp>
             <boolProp name="createNewConnection">false</boolProp>
             <boolProp name="loadDataFromFile">false</boolProp>
             <stringProp name="dataFile"></stringProp>

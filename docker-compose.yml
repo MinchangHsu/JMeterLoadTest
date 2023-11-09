@@ -2,25 +2,27 @@ version: '3.7'
 
 services:
   jmmaster:
-    image: i_caster_master
+    image: i_jmeter_master
     build: 
-      dockerfile: jmmaster_.Dockerfile
+      dockerfile: master.Dockerfile
     container_name: jmeter-master
+    ports:
+      - 2222:22
     volumes:  
       - ./jmx/:/opt/
     networks:
       - jmeter_net
   jmslave:
-    image: i_caster_slave
+    image: i_jmeter_slave
     build: 
-      dockerfile: jmslave_.Dockerfile
+      dockerfile: slave.Dockerfile
     container_name: jmeter-slave01
     networks:
       - jmeter_net
   jmslave2:
-    image: i_caster_slave
+    image: i_jmeter_slave
     build: 
-      dockerfile: jmslave_.Dockerfile
+      dockerfile: slave.Dockerfile
     container_name: jmeter-slave02
     networks:
       - jmeter_net
